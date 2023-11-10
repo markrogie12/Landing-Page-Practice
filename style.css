@@ -5,7 +5,7 @@ body {
    
 }
 
-.container {
+.container-main {
     background-color: #1f2937;
     color: white;
 
@@ -24,6 +24,7 @@ body {
     font-weight: bold;
     font-family: Helvetica;
     color: #f9faf8;
+    margin-left: 50px;
 }
 .nav-list {
     display: flex;
@@ -38,7 +39,47 @@ body {
     color: #e5e7eb;
     text-decoration: none;
 }
-.nav-list li a:hover {
+.container-2 {
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+}
+.content {
+    width: 100%;
+    padding: 32px;
+    margin-left: 100px;
+    position: relative;
     
+
+
+}
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight:bold; }
+.secondary-txt {
+    font-size: 18px;
+    color: #e5e7eb;
+    width: 60%; }
+.sign-up {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+
+.image-container {
+    width: 800px;
+    height: 300px;
+    position: relative;
+    background-color: green;
+    margin-right: 10%
 
 }
